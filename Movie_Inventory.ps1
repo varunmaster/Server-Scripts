@@ -15,4 +15,4 @@ $movieList | Out-File -FilePath $movieFile -Append -NoClobber -Encoding utf8
 
 $body = Get-Content "C:\Data\movieList.txt" -Raw
 
-Send-MailMessage -SMTPServer localhost -To @("varunmaster95@gmail.com","nvelani2@gmail.com") -From Plex@ESXI-Plex.com -Subject "Plex Movie List - $date" -Body "$body" -BodyAsHtml
+Send-MailMessage -SMTPServer localhost -To @("varunmaster95@gmail.com","nvelani2@gmail.com","s.advani96@gmail.com") -From Plex@ESXI-Plex.com -Subject "Plex Movie List - $date" -Body "$body" -BodyAsHtml
