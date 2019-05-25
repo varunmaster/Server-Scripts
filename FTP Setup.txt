@@ -1,0 +1,20 @@
+1. Create a site called FTPRoot
+2. Right Click on FTPRoot and select "Add Virtual Directory"
+    a. Name it LocalUser
+3. Click on FTPRoot and go to FTP User Isolation
+    a. select "User name directory (disable global virtual directories)
+4. Right click LocalUser and select "Add Virtual Directory"
+    a. create an account on the server 
+    b. select the name from step 4 as the same name as the new user
+
+The folder structure should be as follows:
+
+Sites:
+    Default Web Sites
+        Site1
+        Site2
+    FTPRoot
+        LocalUser
+            Movies
+            Shows
+            Varun
