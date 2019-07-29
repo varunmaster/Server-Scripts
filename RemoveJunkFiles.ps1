@@ -1,0 +1,1 @@
+﻿(gci C:\Data\Movies -Filter '*.jpg' -File -Recurse).FullName | % {rmdir $_ } -ErrorAction Continue
