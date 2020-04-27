@@ -1,0 +1,1 @@
+(gci -Path "C:\Data\Movies" -Filter "test*" -Directory).FullName | % {rmdir $_}

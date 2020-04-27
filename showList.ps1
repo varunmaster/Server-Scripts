@@ -1,4 +1,4 @@
-﻿$showListTemp = @((gci E:\Files\Shows).Name)
+﻿$showListTemp = @((gci E:\Shows).Name)
 $showList = @()
 $date = Get-Date -Format G
 $showFile = "C:\Users\Administrator\app\routes\showList.txt"
